@@ -1,6 +1,6 @@
 body {
   font-family: poppinsreg;
-  background: #e9eef4;
+  background: #28283d;
   padding: 0;
   margin: 0;
   user-select: none;
@@ -14,163 +14,61 @@ body {
   src: url('fonts/Poppins-Regular.woff');
 }
 
-.nav-top {
-  width: 305px;
-  height: 75px;
-  margin-top: 30px;
-  justify-self: center;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-  border-radius: 10px;
-  background: #e9eef4;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+.box {
+  width: 240px;
+  height: 380px;
+  margin-top: 100px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #28283d;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.title-nav {
-  color: #242424;
-  font-weight: 460;
-  font-size: 20px;
-  position: absolute;
-  margin: 24px 125px;
+.chano {
+  width: 230px;
+  margin-top: 5px;
+  border-radius: 18px;
 }
 
-.nav-button {
-  position: absolute;
-  color: #232323;
-  border: none;
-  font-size: 33px;
-  background: none;
-  margin: 20px 20px;
-}
-
-.profile-pic {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin: 150px 120px;
-  position: absolute;
-}
-
-.profile-banner {
-  position: absolute;
-  border: 3px solid lime;
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  margin: 152px 122px;
-  z-index: 2;
-}
-
-.status {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  position: absolute;
-  margin: 243px 213px;
-  background: lime;
-  z-index: 1;
-}
-
-.profile-name {
-  color: #242424;
-  font-size: 18px;
-  position: absolute;
-  margin: 280px 3px;
-  padding-left: 100px;
-}
-
-.profile-role {
-  color: #212121;
-  font-size: 13px;
-  position: absolute;
-  margin: 300px 23px;
-  padding-left: 100px;
-}
-
-.socials a {
-  color: #242424;
-}
-
-.socials {
-  color: #242424;
-  position: absolute;
-  margin: 325px 98px;
-  font-size: 23px;
-  word-spacing: 5px;
-}
-
-
-.numbers li {
-  list-style: none;
-  margin-left: 50px;
-}
-
-.numbers {
-  position: absolute;
-  margin: 370px 17px;
-  font-size: 18px;
-  color: #242424;
-  display: flex;
-}
-
-.names li {
-  list-style: none;
-  margin-left: 18px;
-}
-
-.names {
-  position: absolute;
-  margin: 390px 23px;
-  font-size: 12px;
-  color: #242424;
-  display: flex;
-  padding-right: 30px;
-}
-
-.button-profile button {
-  width: 135px;
-  height: 45px;
-  margin-left: 10px;
-  border-radius: 10px;
-  border: none;
-  background: #0488FF;
+.nameplate {
   color: #e9eef4;
   font-family: poppinsreg;
-  transition: 0.2s all;
-}
-
-.button-profile {
+  font-size: 18px;
+  margin: 10px 19px;
   position: absolute;
-  display: flex;
-  margin: 420px 30px;
 }
 
-.cv:hover {
-  border: 3px solid #A3D9FFC4;
-}
-
-.button-profile .contact {
-  background: #D9D6D6;
-  color: #242424;
-}
-
-.button-profile .contact:hover {
-  border: 3px solid #0488FF;
-}
-
-.list-projects {
-  width: 280px;
-  height: 75px;
-  background: #D9D6D6;
-  border-radius: 10px;
-  justify-self: center;
+.verify {
+  color: #02EB05;
   position: absolute;
-  margin-top: 490px;
+  margin: 255px -55px;
+  font-size: 18px;
 }
 
-.coming {
-  justify-self: center;
+.info {
+  font-family: poppinsreg;
+  font-size: 12px;
+  position: absolute;
+  color: #BEC1BEA1;
+  margin: 40px 19px;
+  position: absolute;
+  text-align: left;
+  padding-right: 70px;
+}
+
+.follow {
   color: #242424;
-  font-weight: 460;
+  width: 90px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  background: #fff;
+  font-family: poppinsreg;
+  position: absolute;
+  margin: 330px -100px;
+  transition: all 0.1s;
+}
+
+.follow:hover{
+  border: 3px solid #0049FF70;
 }
