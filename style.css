@@ -41,7 +41,7 @@ body {
 .verify {
   color: #02EB05;
   position: absolute;
-  margin: 255px -50px;
+  margin: 255px -53px;
   font-size: 18px;
 }
 
@@ -65,7 +65,7 @@ body {
   background: #fff;
   font-family: poppinsreg;
   position: absolute;
-  margin: 340px -100px;
+  margin: 337px -100px;
   transition: all 0.1s;
 }
 
