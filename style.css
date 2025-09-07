@@ -1,0 +1,74 @@
+body {
+  font-family: poppinsreg;
+  background: #28283d;
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+@font-face {
+  font-family: poppinsreg;
+  src: url('fonts/Poppins-Regular.woff');
+}
+
+.box {
+  width: 240px;
+  height: 380px;
+  margin-top: 100px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #28283d;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.chano {
+  width: 230px;
+  margin-top: 5px;
+  border-radius: 18px;
+}
+
+.nameplate {
+  color: #e9eef4;
+  font-family: poppinsreg;
+  font-size: 18px;
+  margin: 10px 19px;
+  position: absolute;
+}
+
+.verify {
+  color: #02EB05;
+  position: absolute;
+  margin: 255px -55px;
+  font-size: 18px;
+}
+
+.info {
+  font-family: poppinsreg;
+  font-size: 12px;
+  position: absolute;
+  color: #BEC1BEA1;
+  margin: 40px 19px;
+  position: absolute;
+  text-align: left;
+  padding-right: 70px;
+}
+
+.follow {
+  color: #242424;
+  width: 90px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  background: #fff;
+  font-family: poppinsreg;
+  position: absolute;
+  margin: 330px -100px;
+  transition: all 0.1s;
+}
+
+.follow:hover{
+  border: 3px solid #0049FF70;
+}
